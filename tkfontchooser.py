@@ -39,7 +39,9 @@ IT = {"Cancel": "Annulla", "Bold": "Grassetto", "Italic": "Corsivo",
       "Underline": "Sottolineato", "Overstrike": "Barrato"}
 RU = {"Cancel": "Отмена", "Bold": "Полужирный", "Italic": "Курсив",
       "Underline": "Подчеркнутый", "Overstrike": "Зачеркнутый"}
-LANGUAGES = {"fr": FR, "en": EN, "it": IT, "ru": RU}
+ES = {"Cancel": "Cancelar", "Bold": "Negrita", "Italic": "Cursiva",
+      "Underline": "Subrayado", "Overstrike": "Tachado"}
+LANGUAGES = {"fr": FR, "en": EN, "it": IT, "ru": RU, "es": ES}
 
 try:
     lang_code = getdefaultlocale()[0][:2]
